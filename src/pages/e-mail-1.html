@@ -1,0 +1,63 @@
+---
+subject: e-mail-1
+---
+<spacer size="20"></spacer>
+    <container>
+        <spacer size="16"></spacer>
+        <row>
+            <columns small="12" large="12">
+                <h2>First title</h2>
+                   <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <a href="#">Learn more</a>
+            </columns>
+        </row>
+        <row>
+            {{>column-block
+                block-image-url= "assets/img/picture2.jpg"
+                block-text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                block-url = "#"
+                block-button-text = "Learn more"
+            }}
+
+            {{>column-block
+                block-image-url = "assets/img/picture3.jpg"
+                block-text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                block-url = "#"
+                block-button-text = "Learn more"
+            }}
+        </row>
+        <row>
+            <columns large="7">
+                <h3>Second title</h3>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores minus eius amet alias odit accusantium, fugit perspiciatis nulla suscipit nisi. Laborum aliquid, voluptatum consectetur fugiat maxime architecto enim molestias aperiam!
+                </p>
+            </columns>
+            <columns large="5" class="sidebar">
+                <callout class="primary">
+                    <h6>CONNECT US:</h6>
+                    <button class="facebook expand" href="#">Facebook</button>
+                    <button class="twitter expand" href="#">Twitter</button>
+                    <button class="google expand" href="#">Google+</button>
+                    <p>CONTACT INFO:</p>
+                    <p>Phone: 223-345-0670</p>
+                    <p>Email: <a href="mailto:annelia_55@mail.ru">annelia_55@mail.ru</a></p>
+                </callout>
+            </columns>
+        </row>
+
+        <center>
+            <menu>
+              <item href="#">Terms</item>
+              <item href="#">Privacy</item>
+              <item href="#">Unsubscribe</item>
+            </menu>
+        </center>
+        <spacer size="16"></spacer>
+    </container>
+<spacer size="20"></spacer>
