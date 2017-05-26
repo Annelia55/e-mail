@@ -1,0 +1,75 @@
+// -------------------------------------------------------------------------------------------------------------- global
+.text-center {
+  text-align: center;
+}
+
+// end global
+
+// ---------------------------------------------------------------------------------------------------------- E-MAIL-PAS
+.email-pas {
+  .unsubscribe {
+    text-align: left;
+  }
+  table.button table td {
+    background: #619b99;
+    border: 2px solid #619b99;
+    &:hover {
+      background: #4d8785;
+      border: 2px solid #4d8785;
+    }
+  }
+  .unsubscribe {
+    a {
+      color: #619b99;
+    }
+  }
+}
+// end e-mail-pas
+
+// --------------------------------------------------------------------------------------------------------- E-MAIL-INFO
+.email-info p {
+  text-align: justify;
+}
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+// end e-mail-info
+
+// -------------------------------------------------------------------------------------------------------- E-MAIL-ORDER
+.email-order {
+  .grey-bg{
+    background-color: $light-gray;
+  }
+  .logo {
+    max-width: 200px;
+  }
+}
+// end e-mail-order
+
+
+
+// ---------------------------------------------------------------------------------------------------------------------
+//                                                      @media
+// ---------------------------------------------------------------------------------------------------------------------
+@media screen and (min-device-width: 1px) {
+  a[href^=tel],
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+}
