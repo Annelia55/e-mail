@@ -9,12 +9,8 @@
 <br>
 <br>
 ▶[Information e-mail](https://rawgit.com/Annelia55/e-mail/master/dist/e-mail-info.html)
-<br>
-<br>
-![Picture](Info.jpg)
-<br>
-<br>
 ▶[Order e-mail](https://rawgit.com/Annelia55/e-mail/master/dist/e-mail-order.html)
 <br>
 <br>
-![Picture](Order.jpg)
+![Picture](InfoOrder.jpg)
+
