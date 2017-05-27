@@ -1,3 +1,90 @@
 @import 'settings';
 @import 'foundation-emails';
-@import 'custom-styles';
+
+.text-right {
+  text-align: right;
+}
+
+// ---------------------------------------------------------------------------------------------------------- E-MAIL-PAS
+.email-pas {
+  .unsubscribe {
+    text-align: left;
+    a {
+      color: #619b99;
+    }
+  }
+  table.button table td {
+    background: #619b99;
+    border: 2px solid #619b99;
+    &:hover {
+      background: #4d8785;
+      border: 2px solid #4d8785;
+    }
+  }
+}
+// end e-mail-pas
+
+// --------------------------------------------------------------------------------------------------------- E-MAIL-INFO
+.email-info p {
+  text-align: justify;
+}
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+// end e-mail-info
+
+// -------------------------------------------------------------------------------------------------------- E-MAIL-ORDER
+.email-order {
+  .grey-bg{
+    background-color: $light-gray;
+  }
+  .logo {
+    max-width: 200px;
+  }
+  .table-section {
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: $light-gray;
+
+    }
+    th, td {
+      padding: 10px;
+    }
+    .table-header {
+      background-color: $medium-gray;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  }
+  .check-button {
+    float: right;
+  }
+}
+// end e-mail-order
+
+// ---------------------------------------------------------------------------------------------------------------------
+//                                                      @media
+// ---------------------------------------------------------------------------------------------------------------------
+@media screen and (min-device-width: 1px) {
+  a[href^=tel],
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+}
