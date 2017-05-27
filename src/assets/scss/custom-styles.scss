@@ -1,9 +1,6 @@
-// -------------------------------------------------------------------------------------------------------------- global
-.text-center {
-  text-align: center;
+.text-right {
+  text-align: right;
 }
-
-// end global
 
 // ---------------------------------------------------------------------------------------------------------- E-MAIL-PAS
 .email-pas {
@@ -53,6 +50,25 @@ table.button.google table td {
   }
   .logo {
     max-width: 200px;
+  }
+  .table-section {
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: $light-gray;
+
+    }
+    th, td {
+      padding: 10px;
+    }
+    .table-header {
+      background-color: $medium-gray;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  }
+  .check-button {
+    float: right;
   }
 }
 // end e-mail-order
